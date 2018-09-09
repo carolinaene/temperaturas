@@ -2,38 +2,8 @@ package NEW;
 
 import javax.swing.JOptionPane;
 
-public class CONVER {
+public class CONVER implements cajaCONVER{
 
-    public double FahrenheitCelsius(double grado) {
-        //=(grado-32)/1.8;
-        double gCelsius = (grado - 32) * 5 / 9;
-        return gCelsius;
-    }
-
-    double CelsiusFahrenheit(double grado) {
-        double gFahrenheit = (grado * 9 / 5) + 32;
-        return gFahrenheit;
-    }
-
-    double CelsiusKelvin(double grado) {
-        double gKelvin = (grado) + 273;
-        return gKelvin;
-    }
-
-    double KelvinCelsuis(double grado) {
-        double gKCelsuis = grado - 273;
-        return gKCelsuis;
-    }
-
-    double FahrenheitKelvin(double grado) {
-        double gFkevin = (grado - 32) * 5 / 9 + 273;
-        return gFkevin;
-    }
-
-    double KelvinFahrenheit(double grado) {
-        double gKfahrenheit = (grado - 273) * 9 / 5 + 32;
-        return gKfahrenheit;
-    }
 
     public static void main(String[] args) {
         double grado = 0, gCelsius = 0, gFahrenheit = 0, gKelvin = 0, gKCelsuis = 0, gFkevin = 0, gKfahrenheit = 0;
